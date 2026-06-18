@@ -1,0 +1,17 @@
+﻿# Core simulation
+pybullet>=3.2.6
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Dataset I/O
+pandas>=2.0.0
+zarr>=2.16.0
+h5py>=3.9.0
+
+# Optional: LeRobot dataset export
+# huggingface_hub>=0.20.0
+# datasets>=2.14.0
+
+# Optional: deployment
+fastapi>=0.110.0
+uvicorn>=0.27.0
